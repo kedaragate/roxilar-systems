@@ -2,6 +2,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
+import { faSolid, faSort } from "react-icons/fa";
 import UserEntries from "../UserEntries/UserEntries";
 
 export default function Todos({ todoData }) {
@@ -12,7 +13,7 @@ export default function Todos({ todoData }) {
       <Row>
         <Col>
           ToDo ID
-          <i className="fa-solid fa-sort"></i>
+          <faSort />
         </Col>
         <Col>Title</Col>
         <Col>Status</Col>
